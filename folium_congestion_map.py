@@ -41,3 +41,5 @@ for loc in locations:
 
 # Save the map as an interactive HTML file
 m.save("congestion_map.html")
+
+# to run - open congestion_map.html  

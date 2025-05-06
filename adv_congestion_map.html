@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cdc2faaf26a7c8f889cb9fef07257cc9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_cdc2faaf26a7c8f889cb9fef07257cc9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_cdc2faaf26a7c8f889cb9fef07257cc9 = L.map(
+                "map_cdc2faaf26a7c8f889cb9fef07257cc9",
+                {
+                    center: [40.74, -74.18],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b557a4e2f21baa7a1c0988f9d4dec5ac = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b557a4e2f21baa7a1c0988f9d4dec5ac.addTo(map_cdc2faaf26a7c8f889cb9fef07257cc9);
+        
+    
+            var circle_marker_d83b2f6ee220cbd59ddb77c89c9e70ed = L.circleMarker(
+                [40.7357, -74.1724],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_cdc2faaf26a7c8f889cb9fef07257cc9);
+        
+    
+        var popup_3037b7c7f2c0ab8b3b2629383e2fc9b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae59755d6b755a94a12fb28f16a30d02 = $(`<div id="html_ae59755d6b755a94a12fb28f16a30d02" style="width: 100.0%; height: 100.0%;">Broad St & 5th - Moderate (Index: 1.14)</div>`)[0];
+                popup_3037b7c7f2c0ab8b3b2629383e2fc9b1.setContent(html_ae59755d6b755a94a12fb28f16a30d02);
+            
+        
+
+        circle_marker_d83b2f6ee220cbd59ddb77c89c9e70ed.bindPopup(popup_3037b7c7f2c0ab8b3b2629383e2fc9b1)
+        ;
+
+        
+    
+    
+            var circle_marker_90d2e4068f5e8e86c9918f6a4ad6e3b9 = L.circleMarker(
+                [40.738, -74.1801],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_cdc2faaf26a7c8f889cb9fef07257cc9);
+        
+    
+        var popup_f42be22af4ef1e57939018e1ff9cf3e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd12d9de96e338cc8bc88bf1f7862dff = $(`<div id="html_fd12d9de96e338cc8bc88bf1f7862dff" style="width: 100.0%; height: 100.0%;">Market & Raymond - Moderate (Index: 1.50)</div>`)[0];
+                popup_f42be22af4ef1e57939018e1ff9cf3e7.setContent(html_fd12d9de96e338cc8bc88bf1f7862dff);
+            
+        
+
+        circle_marker_90d2e4068f5e8e86c9918f6a4ad6e3b9.bindPopup(popup_f42be22af4ef1e57939018e1ff9cf3e7)
+        ;
+
+        
+    
+    
+            var circle_marker_70ffdc4c5137043bdb19cdb7e96d9f54 = L.circleMarker(
+                [40.741, -74.1865],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_cdc2faaf26a7c8f889cb9fef07257cc9);
+        
+    
+        var popup_7981060b240fcb9e89d4345ff9432e06 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0354778f0911cc7654a0b2971324ed5 = $(`<div id="html_c0354778f0911cc7654a0b2971324ed5" style="width: 100.0%; height: 100.0%;">Central Ave - High (Index: 2.50)</div>`)[0];
+                popup_7981060b240fcb9e89d4345ff9432e06.setContent(html_c0354778f0911cc7654a0b2971324ed5);
+            
+        
+
+        circle_marker_70ffdc4c5137043bdb19cdb7e96d9f54.bindPopup(popup_7981060b240fcb9e89d4345ff9432e06)
+        ;
+
+        
+    
+    
+            var circle_marker_758879dd6ca45407f21f3613efb537a5 = L.circleMarker(
+                [40.7441, -74.19],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_cdc2faaf26a7c8f889cb9fef07257cc9);
+        
+    
+        var popup_7468c044f8da9f103e3f085c241a76c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad7e75abf2c6af042f12a24ac5dbb657 = $(`<div id="html_ad7e75abf2c6af042f12a24ac5dbb657" style="width: 100.0%; height: 100.0%;">University Heights - Low (Index: 0.50)</div>`)[0];
+                popup_7468c044f8da9f103e3f085c241a76c9.setContent(html_ad7e75abf2c6af042f12a24ac5dbb657);
+            
+        
+
+        circle_marker_758879dd6ca45407f21f3613efb537a5.bindPopup(popup_7468c044f8da9f103e3f085c241a76c9)
+        ;
+
+        
+    
+    
+            var circle_marker_45c3ef441f2fa11c8bfca6e07217778b = L.circleMarker(
+                [40.7283, -74.2025],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_cdc2faaf26a7c8f889cb9fef07257cc9);
+        
+    
+        var popup_124af95e955b8da4f9b462b07991f2b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e5c982f35bfd933cfbc89c488581faf = $(`<div id="html_6e5c982f35bfd933cfbc89c488581faf" style="width: 100.0%; height: 100.0%;">Clinton Ave & Bergen - Moderate (Index: 1.07)</div>`)[0];
+                popup_124af95e955b8da4f9b462b07991f2b5.setContent(html_6e5c982f35bfd933cfbc89c488581faf);
+            
+        
+
+        circle_marker_45c3ef441f2fa11c8bfca6e07217778b.bindPopup(popup_124af95e955b8da4f9b462b07991f2b5)
+        ;
+
+        
+    
+    
+            var circle_marker_06fd78d531942f66c5e12da22759b166 = L.circleMarker(
+                [40.7478, -74.1772],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_cdc2faaf26a7c8f889cb9fef07257cc9);
+        
+    
+        var popup_fc29096b68a1b08f3584ea63c7169f32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e2cc8b8cd763e316d6450243cda2ec07 = $(`<div id="html_e2cc8b8cd763e316d6450243cda2ec07" style="width: 100.0%; height: 100.0%;">Orange St & MLK Blvd - Moderate (Index: 1.59)</div>`)[0];
+                popup_fc29096b68a1b08f3584ea63c7169f32.setContent(html_e2cc8b8cd763e316d6450243cda2ec07);
+            
+        
+
+        circle_marker_06fd78d531942f66c5e12da22759b166.bindPopup(popup_fc29096b68a1b08f3584ea63c7169f32)
+        ;
+
+        
+    
+</script>
+</html>
